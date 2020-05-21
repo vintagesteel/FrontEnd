@@ -1,12 +1,12 @@
 
 version: '3'
 services:
-        redis-server:
-                image: 'redis'
-        node-app:
-                restart: always
+        web:
                 build: .
                 ports:
-                    - "8081:8081"
+                    - "3080:3000"
+                volumes:
+                   - /app/node_modules
+                   - .:/app
  web:
         stdin_open: true
