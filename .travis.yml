@@ -8,17 +8,5 @@ before_install:
         - docker build -t vintagesteel/frontend -f Dockerfile.dev .
 
 script:
-        - docker run -e CI=true vintagesteel/frontend npm run test
-
-deploy:
-        provider: elasticbeanstalk
-        region: "us-east-1"
-        app: "FrontEnd"
-        env: "Frontend-env"
-        bucket_name: "elasticbeanstalk-us-east-1-408885327645"
-        bucket_path: "FrontEnd"
-        on:
-          branch: master
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SEC_KEY
+        - docker run -e CI=true vintagesteel/Frontend npm run test
 
