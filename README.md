@@ -1,4 +1,4 @@
 =======
 # FrontEnd
-Docker training using a React, Travis CI, GitHub, K8, AWS Elastic Beanstalk
+Docker training using a React, Travis CI, K8, AWS Elastic Beanstalk
 
