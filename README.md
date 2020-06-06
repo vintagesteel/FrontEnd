@@ -10,5 +10,9 @@ docker exec -it CONTAINER_ID sh
 
 =======
 # FrontEnd
+<<<<<<< HEAD
 Docker training using a React, Travis CI, GitHub, AWS Elastic Beanstalk
+>>>>>>> Develop
+=======
+Docker training using a React, Travis CI, GitHub, AWS Elastic Beanstalk and more!
 >>>>>>> Develop
