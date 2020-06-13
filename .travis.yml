@@ -16,7 +16,7 @@ deploy:
   secret_access_key: $AWS_SEC_KEY
   region: "us-east-1"
   app: "FrontEnd"
-  env: "Frontend-env"
+  env: "Frontend-env-1"
   bucket_name: "elasticbeanstalk-us-east-1-408885327645"
   bucket_path: "FrontEnd"
   on:
